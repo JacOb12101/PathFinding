@@ -1,0 +1,13 @@
+{
+    "zones": {
+        "A": {"borders": ["B", "E", "D"]},
+        "B": {"borders": ["A", "E", "C"]},
+        "C": {"borders": ["B", "E", "F"]},
+        "D": {"borders": ["A", "E", "G", "H"]},
+        "E": {"borders": ["A", "B", "C", "F", "G", "D"]},
+        "F": {"borders": ["C", "E", "G", "I"]},
+        "G": {"borders": ["H", "E", "D", "F", "I"]},
+        "H": {"borders": ["G", "D"]},
+        "I": {"borders": ["F", "G"]}
+    }
+}
